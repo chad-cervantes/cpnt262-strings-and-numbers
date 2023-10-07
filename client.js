@@ -26,4 +26,15 @@ console.log(userName.charAt(8));
   //Username
   document.getElementById("one-piece").innerHTML = userName;
 
+  //Number of characters
+  document.getElementById("length").innerHTML = userName.length;
+
+  //First index of a word
+  document.getElementById("first-index").innerHTML = userName.indexOf("n");
+
+  //First character
+  document.getElementById("first-ch").innerHTML = userName.charAt(0);
+
+  //Last character
+  document.getElementById("last-ch").innerHTML = userName.charAt(8);
 
