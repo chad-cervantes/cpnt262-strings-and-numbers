@@ -6,3 +6,5 @@
 
 Strings
  - [Mozilla Developer strings link](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings)
+ - [W3Schools JS Output](https://www.w3schools.com/js/js_output.asp)
+  - Had to use this link since I couldn't remember how to render values to HTML
