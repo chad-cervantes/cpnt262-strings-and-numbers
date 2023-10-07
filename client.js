@@ -20,3 +20,10 @@ console.log(userName.charAt(0));
 
 //Show the last character of your string;
 console.log(userName.charAt(8));
+
+//Rendering string values to HTML
+
+  //Username
+  document.getElementById("one-piece").innerHTML = userName;
+
+
