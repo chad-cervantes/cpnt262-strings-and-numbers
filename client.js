@@ -40,7 +40,9 @@ console.log(userName.charAt(8));
 
 
   //NUMBER//
-  let number = 92;
-
+  let number = 92
+  
   //Convert a number to a string with Number.toString();
   console.log("Output : " + number.toString(2));
+  //Render it to HTML
+  document.getElementById("number-tostring").innerHTML = number.toString(2);
