@@ -1,4 +1,6 @@
 //STRINGS//
+
+//Before Value
 const userName = "One Piece"
 
 //Show the number of characters in your string with String.length;
@@ -31,7 +33,9 @@ console.log(userName.charAt(8));
   document.getElementById("last-ch").innerHTML = userName.charAt(8);
 
 
-  //NUMBER//
+  //NUMBERS//
+
+  //Before Value
   let number = 92
   
   //Convert a number to a string with Number.toString();
