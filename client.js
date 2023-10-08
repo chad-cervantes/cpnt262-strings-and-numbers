@@ -51,3 +51,6 @@ console.log(userName.charAt(8));
   console.log(number.toExponential(3));
   //Render it to HTML
   document.getElementById("exponential").innerHTML = number.toExponential(3);
+
+  //Check if a number is an integer with Number.isInteger()
+  console.log(Number.isInteger(92));
