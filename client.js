@@ -46,3 +46,8 @@ console.log(userName.charAt(8));
   console.log("Output : " + number.toString(2));
   //Render it to HTML
   document.getElementById("number-tostring").innerHTML = number.toString(2);
+
+  //Convert a number to exponential notation with Number.toExponential()
+  console.log(number.toExponential(3));
+  //Render it to HTML
+  document.getElementById("exponential").innerHTML = number.toExponential(3);
