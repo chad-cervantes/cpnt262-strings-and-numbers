@@ -11,6 +11,7 @@ Strings
 
 Numbers 
   - [Geeks for Geeks](https://www.geeksforgeeks.org/javascript-number-isinteger-method/)
+    - Had to use this site to help me with Number.isInterger method
 
 ### Code Journal Entry
 
