@@ -15,7 +15,7 @@ console.log(userName.charAt(0));
 //Show the last character of your string;
 console.log(userName.charAt(8));
 
-//Rendering string values to HTML
+//Rendering string values to HTML (After values)
 
   //Username
   document.getElementById("one-piece").innerHTML = userName;
@@ -40,15 +40,15 @@ console.log(userName.charAt(8));
   
   //Convert a number to a string with Number.toString();
   console.log("Output : " + number.toString(2));
-  //Render it to HTML
+  //Render it to HTML (After value)
   document.getElementById("number-tostring").innerHTML = number.toString(2);
 
   //Convert a number to exponential notation with Number.toExponential()
   console.log(number.toExponential(3));
-  //Render it to HTML
+  //Render it to HTML (After value)
   document.getElementById("exponential").innerHTML = number.toExponential(3);
 
   //Check if a number is an integer with Number.isInteger()
   console.log(Number.isInteger(92));
-  //Render it to HTML
+  //Render it to HTML (After value)
   document.getElementById("integer").innerHTML = Number.isInteger(92);
