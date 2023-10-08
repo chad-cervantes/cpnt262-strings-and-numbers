@@ -54,3 +54,5 @@ console.log(userName.charAt(8));
 
   //Check if a number is an integer with Number.isInteger()
   console.log(Number.isInteger(92));
+  //Render it to HTML
+  document.getElementById("integer").innerHTML = Number.isInteger(92);
