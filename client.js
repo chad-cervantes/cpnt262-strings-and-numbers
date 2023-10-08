@@ -38,3 +38,9 @@ console.log(userName.charAt(8));
   //Last character
   document.getElementById("last-ch").innerHTML = userName.charAt(8);
 
+
+  //NUMBER//
+  let number = 92;
+
+  //Convert a number to a string with Number.toString();
+  console.log("Output : " + number.toString(2));
